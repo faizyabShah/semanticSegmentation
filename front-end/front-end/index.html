@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Satellite Image Segmentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Satellite Image Segmentation</h1>
+        <div class="uploadStuff">
+            <label for="fileInput" class="custom-file-upload">
+                Upload
+            </label>
+            <input type="file" id="fileInput" onchange="uploadImage(event)"/>
+            <button id="majorbutton" onclick="processImage(event)"  type="button">Process</button>
+        </div>
+        <div id="resultContainer">
+        </div>
+        <div class="legend" id="legend">
+            <div class="label">
+                <div class="color-patch" style="background-color: #440053;"></div>
+                <span>Building</span>
+            </div>
+            <div class="label">
+                <div class="color-patch" style="background-color: #30688d"></div>
+                <span>Land</span>
+            </div>
+            <div class="label">
+                <div class="color-patch" style="background-color: #32b974"></div>
+                <span>Road</span>
+            </div>
+            <div class="label">
+                <div class="color-patch" style="background-color: #5dcb54"></div>
+                <span>Vegetation</span>
+            </div>
+            <div class="label">
+                <div class="color-patch" style="background-color: #fde624"></div>
+                <span>Water</span>
+            </div>
+            <div class="label">
+                <div class="color-patch" style="background-color: #9B9B9B;"></div>
+                <span>Unlabeled</span>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
