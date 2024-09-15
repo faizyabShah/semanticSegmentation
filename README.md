@@ -38,6 +38,12 @@ The dataset was sourced from Kaggle, specifically the "Semantic Segmentation of 
 - The final model achieved an accuracy of 85% and a Jaccard coefficient of 0.755, a significant improvement over the initial model.
 - The model performed well overall, though it showed some limitations in segmenting vegetation due to the dataset's characteristics.
 
+## Product
+![image](https://github.com/user-attachments/assets/5abbbce6-47ae-4089-899c-bd485e44b006)
+![image](https://github.com/user-attachments/assets/86dc551e-6d70-4b49-b6b9-fd2e32b4c556)
+![image](https://github.com/user-attachments/assets/f027f76d-371f-48da-a82a-5a14cb5b4a5a)
+
+
 ## Conclusion
 While the U-Net architecture with a ResNet34 backbone showed significant improvements in segmenting high-resolution satellite imagery, several limitations were identified:
 - The dataset's lack of vegetative features impacted the model's performance in accurately segmenting vegetation.
